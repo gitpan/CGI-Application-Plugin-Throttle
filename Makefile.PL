@@ -5,6 +5,10 @@ use ExtUtils::MakeMaker;
 
 my %prereq_pm = ( 'CGI::Application' => undef,
                   'Redis'            => undef,
+                  # solely for the test-suite.
+                  'Test::More'       => undef,
+                  'Test::Pod'        => undef,
+                  'Test::NoTabs'     => undef,
                 );
 
 WriteMakefile(
