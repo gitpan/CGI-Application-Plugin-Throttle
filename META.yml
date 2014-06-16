@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               CGI-Application-Plugin-Throttle
-version:            0.2
+version:            0.3
 abstract:           Rate-Limiting for CGI::Application-based applications, using Redis for persistence.
 author:
     - Steve Kemp <steve@steve.org.uk>
