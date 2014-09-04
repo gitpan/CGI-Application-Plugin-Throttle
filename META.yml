@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               CGI-Application-Plugin-Throttle
-version:            0.4
+version:            0.5
 abstract:           Rate-Limiting for CGI::Application-based applications, using Redis for persistence.
 author:
     - Steve Kemp <steve@steve.org.uk>
@@ -11,11 +11,8 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    CGI::Application:  ~
-    Redis:             ~
-    Test::More:        ~
-    Test::NoTabs:      ~
-    Test::Pod:         ~
+    CGI::Application:  0
+    Redis:             0
 resources:
     bugtracker:  https://github.com/skx/CGI--Application--Plugin--Throttle/issues
     homepage:    https://github.com/skx/CGI--Application--Plugin--Throttle/
